@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body,html{
+    font-family: 'Roboto', sans-serif;
+}
+.home{
+    background-image: url(./assets/img/ecommerce.png);
+    background-position: left bottom;
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.gpk-active{
+    color: red;
+}
+.gpk-product-minHeight{
+    min-height :180px;;
+}
+.solid {
+    border-bottom: 2px solid #999;
+}
+.gpk-product-scale:hover{
+    transform: scale(1.02);
+}
+.gpk-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

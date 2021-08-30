@@ -1,0 +1,5 @@
+{
+    "dbURI": "mongodb+srv://admin:admin123@cluster0.ysik5.mongodb.net/flybuy?retryWrites=true&w=majority",
+    "jwtSecret": "e-commerce_gpk",
+    "StripeAPIKey": "YOUR STRIPE SECRET API KEY"
+}
